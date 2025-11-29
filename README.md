@@ -8,30 +8,49 @@ This project uses a large dataset of payment transactions and applies different 
 The dataset contains 6.3 million transactions, with the following key features:
 
 Column	            Description
-step	              Time unit of the transaction
-type	              Transaction type (CASH_OUT, TRANSFER, etc.)
-amount	            Transaction amount
-nameOrig	          Sender account ID
-oldbalanceOrg	      Sender balance before transaction
-newbalanceOrg      	Sender balance after transaction
-nameDest	          Receiver account ID
-oldbalanceDest	    Receiver balance before transaction
-newbalanceDest	    Receiver balance after transaction
-isFraud	            Target variable (1 = Fraud, 0 = Legit)
+
+step	              Time unit of the transaction.
+
+type	              Transaction type (CASH_OUT, TRANSFER, etc.).
+
+amount	            Transaction amount.
+
+nameOrig	          Sender account ID.
+
+oldbalanceOrg	      Sender balance before transaction.
+
+newbalanceOrg      	Sender balance after transaction.
+
+nameDest	          Receiver account ID.
+
+oldbalanceDest	    Receiver balance before transaction.
+
+newbalanceDest	    Receiver balance after transaction.
+
+isFraud	      -      Target variable (1 = Fraud, 0 = Legit).
+
 
 ***** Exploratory Data Analysis *****
 
-Distribution of transaction types
-Fraud vs Non-fraud count
-Amount vs Type analysis
-Correlation heatmap
-Visualizing step-wise distribution
+Distribution of transaction types.
+
+Fraud vs Non-fraud count.
+
+Amount vs Type analysis.
+
+Correlation heatmap.
+
+Visualizing step-wise distribution.
+
 
 ***** Machine Learning Models Used *****
 
-Logistic Regression
-Random Forest Classifier
-XGBoost Classifier 
+Logistic Regression.
 
-Code Link: https://colab.research.google.com/drive/1jW-R3WUs8jdRQBcNH6qUDOml94hY0b9U
-Dataset is uploaded in the repository
+Random Forest Classifier.
+
+XGBoost Classifier .
+
+Code Link: https://colab.research.google.com/drive/1jW-R3WUs8jdRQBcNH6qUDOml94hY0b9U.
+
+Dataset Link: https://drive.google.com/file/d/1Hx3ZEv4jUdUDmZJjgibjJmt4Qclb95F-/view?usp=sharing
