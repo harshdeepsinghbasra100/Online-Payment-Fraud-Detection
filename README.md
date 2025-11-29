@@ -7,25 +7,25 @@ This project uses a large dataset of payment transactions and applies different 
 ***** DATASET DISCRIPTION ****
 The dataset contains 6.3 million transactions, with the following key features:
 
-Column	            Description
+Column	    -        Description
 
-step	              Time unit of the transaction.
+step	       -       Time unit of the transaction.
 
-type	              Transaction type (CASH_OUT, TRANSFER, etc.).
+type	        -      Transaction type (CASH_OUT, TRANSFER, etc.).
 
-amount	            Transaction amount.
+amount	       -     Transaction amount.
 
-nameOrig	          Sender account ID.
+nameOrig	      -    Sender account ID.
 
-oldbalanceOrg	      Sender balance before transaction.
+oldbalanceOrg	   -   Sender balance before transaction.
 
-newbalanceOrg      	Sender balance after transaction.
+newbalanceOrg     - 	Sender balance after transaction.
 
-nameDest	          Receiver account ID.
+nameDest	         - Receiver account ID.
 
-oldbalanceDest	    Receiver balance before transaction.
+oldbalanceDest	  -  Receiver balance before transaction.
 
-newbalanceDest	    Receiver balance after transaction.
+newbalanceDest	   - Receiver balance after transaction.
 
 isFraud	      -      Target variable (1 = Fraud, 0 = Legit).
 
